@@ -140,7 +140,7 @@ btnSummon.addEventListener('click', function() {
         descriptionTitle.textContent = "MISSING ENTITY - <h1 class='zodiacTitle' id='zodiacTitle'>Cannot find entity title.</h1>";
         descriptionPhar.textContent = "<div class='divDescriptionMain' id='divDescriptionMain'><p class='pharDescription' id='pharDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, before daybreak, I will visit you. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>";
     }
-    
+
     // Transition: Mane pane
     divPane.style.transition = 3 + "s";
     divPane.style.height = 2 + "%";
@@ -193,7 +193,7 @@ btnSummon.addEventListener('click', function() {
     
     // Summon button transition, shift and background change
     btnSummon.style.transition = 3 + "s";
-    btnSummon.style.margin = -265 + "px " + 350 + "px";
+    btnSummon.style.margin = -22 + "% " + 25 + "%";
     btnSummon.style.borderRadius = 50 + "%";
     btnSummon.style.width = 50 +"px";
     btnSummon.style.height = 50 +"px";
@@ -257,7 +257,7 @@ btnSummon.addEventListener('click', function() {
         lblYear.style.marginLeft = 10 + "px";        
         
         btnSummon.style.transition = 3 + "s";
-        btnSummon.style.margin = 25 + "px " + 350 + "px";
+        btnSummon.style.margin = 2 + "% " + 30 + "%";
         btnSummon.style.borderRadius = 0 + "%";
         btnSummon.style.width = 100 + "px";
         btnSummon.style.height = 40 + "px";
