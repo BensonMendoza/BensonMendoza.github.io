@@ -183,7 +183,7 @@ btnSummon.addEventListener('click', function() {
     // Label hide and transition
     lblMonth.style.transition = 2 + "s";
     lblMonth.style.opacity = 0;
-    lblMonth.style.margin = 200 + "% " + 5 + "px";
+    lblMonth.style.margin = 200 + "% " + 0 + "px";
 
     lblDay.style.transition = 2 + "s";
     lblDay.style.opacity = 0;
@@ -205,7 +205,7 @@ btnSummon.addEventListener('click', function() {
 
         // Reversal copy of Summon button First activation code
         divPane.style.transition = 3 + "s";
-        divPane.style.height = 70 + "%";
+        divPane.style.height = 71 + "%";
     
         divDescription.style.transition = 3 + "s";
         divDescription.style.height = 1 + "%";
