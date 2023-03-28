@@ -22,6 +22,7 @@ var zdcSagittarius = document.getElementById('zdcSagittarius');
 var zdcScorpio = document.getElementById('zdcScorpio');
 var zdcTaurus = document.getElementById('zdcTaurus');
 var zdcVirgo = document.getElementById('zdcVirgo');
+var ancientCalendar = document.getElementById('ancientCalendar');
 var errorScreen = document.getElementById('errorScreen');
 
 // Variables: Month section
@@ -41,6 +42,19 @@ var inputYear = document.getElementById('inputYear');
 
 // Variables: Button
 var btnSummon = document.getElementById('btnSummon');
+
+function checkMonth() {
+    if (inputMonth.value > 12) {
+        inputMonth.value = 12;
+    }
+}
+
+function checkDay() {
+    if (inputDay.value > 31) {
+        inputDay.value = 31;
+    }
+}
+
 
 // Summon button First activation
 btnSummon.addEventListener('click', function() {
@@ -130,7 +144,7 @@ btnSummon.addEventListener('click', function() {
         descriptionPhar.textContent = "When it comes to the struggles in life being in the warlike situations you are not often on the losing side, but on the winning side more than expected by yourself. This ruthless pursuance and your beliefs in its most true sense define you, and the ways your rivals get scars from you define your enemies. It could be easy to completely get lost in the pursuit however, you should be aware of your reparations.";
     }
     // Else if block: Hide undebugged error
-    else if (inputMonth.value == 99 && inputDay.value == 99 && inputYear.value == 9999) {
+    else if (inputMonth.value < 0 && inputDay.value < 0 && inputYear.value < 0) {
         errorScreen.style.transition = 5 + "s";
         errorScreen.style.opacity = 100 + "%";
         inputMonth.value = 66;
@@ -140,6 +154,14 @@ btnSummon.addEventListener('click', function() {
         descriptionTitle.textContent = "MISSING ENTITY - <h1 class='zodiacTitle' id='zodiacTitle'>Cannot find entity title.</h1>";
         descriptionPhar.textContent = "<div class='divDescriptionMain' id='divDescriptionMain'><p class='pharDescription' id='pharDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, before daybreak, I will visit you. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>";
     }
+
+    else if (inputMonth.value == 0 && inputDay.value == 0 && inputYear.value == 0) {
+        ancientCalendar.style.transition = 5 + "s";
+        ancientCalendar.style.opacity = 100 + "%";
+        descriptionTitle.textContent = "The Ancient One";
+        descriptionPhar.textContent = "You appear to walk the Earth before the existence of calendar. Perhaps you have great knowledge to share, we are more than interested.";
+    }
+
 
     // Transition: Mane pane
     divPane.style.transition = 3 + "s";
@@ -183,7 +205,7 @@ btnSummon.addEventListener('click', function() {
     // Label hide and transition
     lblMonth.style.transition = 2 + "s";
     lblMonth.style.opacity = 0;
-    lblMonth.style.margin = 200 + "% " + 0 + "px";
+    lblMonth.style.margin = 250 + "% " + 0 + "px";
 
     lblDay.style.transition = 2 + "s";
     lblDay.style.opacity = 0;

@@ -29,6 +29,7 @@
         <img class="zdcScorpio" id="zdcScorpio" src="Assets/zdcScorpio.png" alt="">
         <img class="zdcTaurus" id="zdcTaurus" src="Assets/zdcTaurus.png" alt="">
         <img class="zdcVirgo" id="zdcVirgo" src="Assets/zdcVirgo.png" alt="">
+        <img class="ancientCalendar" id="ancientCalendar" src="Assets/ancientCalendar.jpg" alt="">
         <img class="errorScreen" id="errorScreen" src="Assets/errorScreen.jpg" alt="">
     </div>
 
@@ -36,15 +37,15 @@
     <div class="divPane" id="divPane">
         <div class="divMonth" id="divMonth">
             <label for="divMonth" class="lblMonth" id="lblMonth">Month:</label>
-            <input type="number" required class="inputMonth" id="inputMonth" placeholder="00">   
+            <input type="number" required class="inputMonth" id="inputMonth" placeholder="00" onInput="checkMonth()">   
         </div>
         <div class="divDay" id="divDay">
             <label for="divDay" class="lblDay" id="lblDay">Day:</label>
-            <input type="number" required class="inputDay" id="inputDay" placeholder="00">   
+            <input type="number" required class="inputDay" id="inputDay" placeholder="00" onInput="checkDay()">   
         </div>
         <div class="divYear" id="divYear">
             <label for="divYear" class="lblYear" id="lblYear">Year:</label>
-            <input type="number" required class="inputYear" id="inputYear" placeholder="0000">   
+            <input type="number" required class="inputYear" id="inputYear" placeholder="0000" onInput="checkYear()">   
         </div>
     </div>
 
