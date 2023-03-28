@@ -193,7 +193,7 @@ btnSummon.addEventListener('click', function() {
     
     // Summon button transition, shift and background change
     btnSummon.style.transition = 3 + "s";
-    btnSummon.style.margin = -22 + "% " + 25 + "%";
+    btnSummon.style.margin = -20 + "% " + 20 + "%";
     btnSummon.style.borderRadius = 50 + "%";
     btnSummon.style.width = 50 +"px";
     btnSummon.style.height = 50 +"px";
@@ -205,10 +205,10 @@ btnSummon.addEventListener('click', function() {
 
         // Reversal copy of Summon button First activation code
         divPane.style.transition = 3 + "s";
-        divPane.style.height = 405 + "px";
+        divPane.style.height = 70 + "%";
     
         divDescription.style.transition = 3 + "s";
-        divDescription.style.height = 1 + "px";
+        divDescription.style.height = 1 + "%";
 
         divArtHolder.style.transition = 3 + "s";
         divArtHolder.style.opacity = 0;
@@ -257,7 +257,7 @@ btnSummon.addEventListener('click', function() {
         lblYear.style.marginLeft = 10 + "px";        
         
         btnSummon.style.transition = 3 + "s";
-        btnSummon.style.margin = 2 + "% " + 35 + "%";
+        btnSummon.style.margin = 2 + "% " + 30 + "%";
         btnSummon.style.borderRadius = 0 + "%";
         btnSummon.style.width = 100 + "px";
         btnSummon.style.height = 40 + "px";
