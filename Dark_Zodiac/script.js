@@ -193,7 +193,7 @@ btnSummon.addEventListener('click', function() {
     
     // Summon button transition, shift and background change
     btnSummon.style.transition = 3 + "s";
-    btnSummon.style.margin = -20 + "% " + 20 + "%";
+    btnSummon.style.margin = -15 + "% " + 20 + "%";
     btnSummon.style.borderRadius = 50 + "%";
     btnSummon.style.width = 50 +"px";
     btnSummon.style.height = 50 +"px";
