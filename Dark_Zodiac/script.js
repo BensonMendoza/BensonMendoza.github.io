@@ -147,14 +147,15 @@ btnSummon.addEventListener('click', function() {
     else if (inputMonth.value < 0 && inputDay.value < 0 && inputYear.value < 0) {
         errorScreen.style.transition = 5 + "s";
         errorScreen.style.opacity = 100 + "%";
-        inputMonth.value = 66;
-        inputDay.value = 66;
-        inputYear.value = 6666;
+        inputMonth.value = -66;
+        inputDay.value = -66;
+        inputYear.value = -6666;
         divBackground.style.opacity = 0;
         descriptionTitle.textContent = "MISSING ENTITY - <h1 class='zodiacTitle' id='zodiacTitle'>Cannot find entity title.</h1>";
         descriptionPhar.textContent = "<div class='divDescriptionMain' id='divDescriptionMain'><p class='pharDescription' id='pharDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, before daybreak, I will visit you. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>";
     }
 
+    // Else if block: Zero date value
     else if (inputMonth.value == 0 && inputDay.value == 0 && inputYear.value == 0) {
         ancientCalendar.style.transition = 5 + "s";
         ancientCalendar.style.opacity = 100 + "%";
