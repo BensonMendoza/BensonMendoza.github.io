@@ -257,7 +257,7 @@ btnSummon.addEventListener('click', function() {
         lblYear.style.marginLeft = 10 + "px";        
         
         btnSummon.style.transition = 3 + "s";
-        btnSummon.style.margin = 2 + "% " + 30 + "%";
+        btnSummon.style.margin = 2 + "% " + 25 + "%";
         btnSummon.style.borderRadius = 0 + "%";
         btnSummon.style.width = 100 + "px";
         btnSummon.style.height = 40 + "px";
