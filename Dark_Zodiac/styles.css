@@ -15,14 +15,14 @@ body {
     margin: -125px -8px;
     height: 100%;
     width: 100%;
-    background: linear-gradient(to top, transparent, black);
+    background: linear-gradient(to top, transparent, transparent);
     z-index: 1;
 }
 
 .divArtHolder {
     position: fixed;
-    margin: -280px -10px;
-    height: 100%;
+    margin: -325px -10px;
+    height: 115%;
     width: 100%;
     z-index: 0;
 }
