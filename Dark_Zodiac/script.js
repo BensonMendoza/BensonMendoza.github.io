@@ -183,7 +183,7 @@ btnSummon.addEventListener('click', function() {
     // Label hide and transition
     lblMonth.style.transition = 2 + "s";
     lblMonth.style.opacity = 0;
-    lblMonth.style.margin = 250 + "px " + 5 + "px";
+    lblMonth.style.margin = 200 + "% " + 5 + "px";
 
     lblDay.style.transition = 2 + "s";
     lblDay.style.opacity = 0;
