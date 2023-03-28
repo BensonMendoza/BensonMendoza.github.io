@@ -40,7 +40,7 @@ body {
     position: relative;
     margin: 8% auto;
     height: 70%;
-    width: 45%;
+    width: 50%;
     background-color: rgba(0, 0, 0);
     box-shadow: 0 0 10px 1px #4a4a4a;
     z-index: 5;
@@ -78,10 +78,10 @@ body {
 
 .divDescription {
     position: relative;
-    margin: -100 auto;
-    height: 1px;
-    width: 540px;
-    background-color: transparent;
+    margin: -8% auto;
+    height: 2px;
+    width: 49%;
+    background-color: white;
     box-shadow: 0 0 20px 1px black;
     z-index: 5;
 }
