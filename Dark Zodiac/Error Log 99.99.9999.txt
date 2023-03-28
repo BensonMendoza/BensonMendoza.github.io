@@ -1,0 +1,18 @@
+==============================================================================
+HTML:	D:\Reaper's Folder\School Files 2022(ICC)\2nd SEMESTER\Data Structures & Algorithms\Midterm\Project
+Time: 	Mar 27, 2023	1:38:12.896 AM
+User:	Zyllo
+Computer:	ZylloRevolution
+------------------------------------------------------------------------------
+
+Unexpected error occured:
+
+The value is corrupted.
+
+Program:	D:\Reaper's Folder\School Files 2022(ICC)\2nd SEMESTER\Data Structures & Algorithms\Midterm\Project
+Value:	inputMonth.value = 99;
+Value:	inputDay.value = 99;
+Value:	inputYear.value = 9999;
+
+
+------------------------------------------------------------------------------

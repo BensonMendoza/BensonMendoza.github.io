@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac Sign</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background first layer -->
+    <div class="divBackground" id="divBackground"></div>
+
+    <!-- Background second layer -->
+    <div class="divArtHolder" id="divArtHolder">
+        <img class="zdcAquarius" id="zdcAquarius" src="Assets/zdcAquarius.png" alt="">
+        <img class="zdcAries" id="zdcAries" src="Assets/zdcAries.png" alt="">
+        <img class="zdcCancer" id="zdcCancer" src="Assets/zdcCancer.png" alt="">
+        <img class="zdcCapricorn" id="zdcCapricorn" src="Assets/zdcCapricorn.png" alt="">
+        <img class="zdcGemini" id="zdcGemini" src="Assets/zdcGemini.png" alt="">
+        <img class="zdcLeo" id="zdcLeo" src="Assets/zdcLeo.png" alt="">
+        <img class="zdcLibra" id="zdcLibra" src="Assets/zdcLibra.png" alt="">
+        <img class="zdcPisces" id="zdcPisces" src="Assets/zdcPisces.png" alt="">
+        <img class="zdcSagittarius" id="zdcSagittarius" src="Assets/zdcSagittarius.png" alt="">
+        <img class="zdcScorpio" id="zdcScorpio" src="Assets/zdcScorpio.png" alt="">
+        <img class="zdcTaurus" id="zdcTaurus" src="Assets/zdcTaurus.png" alt="">
+        <img class="zdcVirgo" id="zdcVirgo" src="Assets/zdcVirgo.png" alt="">
+        <img class="errorScreen" id="errorScreen" src="Assets/errorScreen.jpg" alt="">
+    </div>
+
+    <!-- Main panel -->
+    <div class="divPane" id="divPane">
+        <div class="divMonth" id="divMonth">
+            <label for="divMonth" class="lblMonth" id="lblMonth">Month:</label>
+            <input type="number" required class="inputMonth" id="inputMonth" placeholder="00">   
+        </div>
+        <div class="divDay" id="divDay">
+            <label for="divDay" class="lblDay" id="lblDay">Day:</label>
+            <input type="number" required class="inputDay" id="inputDay" placeholder="00">   
+        </div>
+        <div class="divYear" id="divYear">
+            <label for="divYear" class="lblYear" id="lblYear">Year:</label>
+            <input type="number" required class="inputYear" id="inputYear" placeholder="0000">   
+        </div>
+    </div>
+
+    <!-- Description Panel -->
+    <div class="divDescription" id="divDescription">
+        <h1 class="descriptionTitle" id="descriptionTitle">
+
+        </h1>
+        <p class="descriptionPhar" id="descriptionPhar">
+
+        </p>
+    </div>
+
+    <!-- Button summmon -->
+    <button class="btnSummon" id="btnSummon">Summon</button>
+    
+    <script src="script.js"></script>
+        
+</body>
+</html>
+
+    
