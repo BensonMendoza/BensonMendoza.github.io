@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     font-family: 'Titillium Web';
+    display: flexbox;
 }
 
 body {
@@ -43,7 +44,7 @@ body {
     margin: 10% auto;
     height: 70%;
     width: 50%;
-    padding-left: 30px;
+    padding-left: 2%;
     background-color: rgba(0, 0, 0);
     box-shadow: 0 0 10px 1px #4a4a4a;
     z-index: 5;
