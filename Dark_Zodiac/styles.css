@@ -12,7 +12,8 @@ body {
 
 .divBackground {
     position: fixed;
-    margin: -145px -8px;
+    margin: -150px -8px;
+    background-size: contain;
     height: 100%;
     width: 100%;
     background: linear-gradient(to top, transparent, black);
@@ -22,13 +23,15 @@ body {
 .divArtHolder {
     position: fixed;
     margin: -150px -10px;
-    height: fit-content;
+    background-size: contain;
+    background-position: center center;
+    height: 110%;
     width: 101%;
     z-index: 0;
 }
 
 .divArtHolder img {
-    position: absolute;
+    position: fixed;
     height: inherit;
     width: inherit;
     opacity: 0%;
